@@ -1,0 +1,133 @@
+body{
+    font-size:13px;
+}
+
+header{
+    width:100%;
+    height:186px;
+    background:#fff;
+    border-bottom:1px solid #999999;
+}
+
+.inner{
+    width:1034px;
+    margin:0 auto;
+}
+
+.loginContainer{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+}
+
+.loginContainer h2{
+    padding:58px 0;
+    text-align:center;
+}
+
+.loginSection{
+    border:1px solid #dddddd;
+    width:570px;
+    height:320px;
+}
+
+#myForm{
+    padding:30px;
+    margin:0 auto;
+}
+
+#myForm label{
+    font-size:14px;
+}
+
+#userId,#userPw{
+    width:100%;
+    padding:4px;
+}
+
+#userPw{
+    margin:10px 0 35px;
+}
+
+#submit{
+    width:100%;
+    height:56px;
+    color:#fff;
+    background-color:#542f82;
+    border:none;
+    margin-bottom:14px;
+    font-size:18px;
+}
+
+.userInfo{
+    text-align:center;
+}
+
+.userInfo li{
+    display:inline-block;
+    margin:0 10px;
+    position: relative;
+    z-index:1;
+}
+
+.userInfo li:before{
+    content:"";
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    display: block;
+    width: 1px;
+    height: 12px;
+    margin-top: -6px;
+    z-index:2;
+    background: #adadad;
+}
+
+.userInfo li:first-child:before{
+    display:none;
+}
+
+.socialBox{
+    width:100%;
+    text-align:justify;
+}
+
+.socialBox li{
+    width:276px;
+    height:53px;
+    border:1px solid #dddddd;
+    display:inline-block;
+    margin-top:35px;
+    margin-bottom:35px;
+    line-height:53px;
+    text-indent:98px;
+    font-size:18px;
+}
+
+.socialBox li:first-child{
+    margin-right:6px;
+    background: url("original MYOMEE/origin images/btnNaver.png") 10% 50% no-repeat;
+}
+
+.socialBox li:nth-child(2){
+    margin-left:6px;
+    background: url("original MYOMEE/origin images/btnFacebook.png") 10% 50% no-repeat;
+}
+
+.socialBox li a{
+    color:#999999;
+}
+
+.loginInfo {
+    width:570px;
+    height:106px;
+    background: #f3f3f3;
+    font-size: 13px;
+    padding:20px;
+    box-sizing: border-box;
+    color:#999999;
+}
+
+.loginInfo dt{
+    font-weight: 800;
+}
